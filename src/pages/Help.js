@@ -25,20 +25,24 @@ export default function Help() {
                       
                       <div className="property-info-main">
                             <h6 className="pb-1">
-                                <span className="font-weight-bold large text-danger">Emergency/ Helpline Numbers in India </span>
+                                <span className="font-weight-bold large text-danger">KKTC ve GKRM Acil / Yardım Hatları | TRNC and GCASC Emergency/ Helpline Numbers</span>
                             </h6>
                             
                             <div className="badge badge-primary">
                                 
                               <button className="btn btn-sm primary">
-                                <a href="https://www.mohfw.gov.in/pdf/coronvavirushelplinenumber.pdf" className="text-white" target="_blank" style={{textDecoration: "underline"}}>All States and Union Territories</a>
+                                <a href="https://saglik.gov.ct.tr/İLETİŞİM" className="text-white" target="_blank" style={{textDecoration: "underline"}}>KKTC Sağlık Bakanlığı | TRNC Ministry of Health</a>
+                              </button>
+
+                              <button className="btn btn-sm primary">
+                                <a href="https://saglik.gov.ct.tr/ONLINE-HIZMETLER/COVID-19-Bildirim" className="text-white" target="_blank" style={{textDecoration: "underline"}}>COVID-19 Bildirim Formu | COVID-19 Notification Form</a>
                               </button>
                               
                             </div>  
                         
                             <div className="property-description">
                                 
-                                <div className="table-responsive">
+                                {/* <div className="table-responsive">
                                   <table className="table-sm table-lightborder">
                                     <thead>
                                       <tr>
@@ -90,8 +94,8 @@ export default function Help() {
                                         <tr><td>Puducherry</td><td className="font-weight-bold large  text-danger">104</td></tr>
                                           
                                     </tbody>
-                                  </table>
-                                </div>
+                                  </table> 
+                                </div> */}
                             
                             </div>
                           </div>
@@ -110,25 +114,31 @@ export default function Help() {
                                 <div className="side-section-content">
                                 <div className="property-side-features">
                                   <div className="feature">
-                                    <span className="font-weight-bold" style={{textTransform: "capitalize"}}>National Toll Free Number</span>
-                                    <br/>
-                                    <span className="font-weight-bold xlarge text-danger">1075</span>  
+                                    <span className="font-weight-bold" style={{textTransform: "capitalize"}}>Eğer çevrenizde birinin COVID-19 taşıdığından şüpheleniyorsanız, yetkililere ulaşmadan önce bu formdaki belirtilere bakarak daha kesin bir fikir sahibi olabilirsiniz</span>
+                                    <br/><br/>
+                                      <div className="badge badge-primary">
+                                        <button className="btn btn-sm primary">
+                                        <a href="https://saglik.gov.ct.tr/Portals/107/COVID-19%20Olas%20Vaka%20Tanm.pdf" className="text-white" target="_blank" style={{textDecoration: "underline"}}>COVID-19 Vaka Tanım Belgesi</a>
+                                        </button>
+                                      </div>
+                                    <br/><br/>
+                                    <span className="font-weight-bold xlarge text-danger"></span>  
                                   </div>
                                   <br/>
                                   <div className="feature" style={{textTransform: "lowercase"}}>
-                                    <span className="font-weight-bold" style={{textTransform: "capitalize"}}>Whatsapp Number</span>
+                                    <span className="font-weight-bold" style={{textTransform: "capitalize"}}>KKTC Sağlık Bakanlığı Telefon Numarası | TRNC Ministry of Health Telephone Number</span>
                                     <br/>
-                                    <span className="font-weight-bold xlarge text-danger">9013151515</span>  
+                                    <span className="font-weight-bold xlarge text-danger">(0392) 228 31 73</span>  
                                   </div>
                                     
                                   <br/>
-                                  <div className="feature" style={{textTransform: "lowercase"}}>
+                                  {/* <div className="feature" style={{textTransform: "lowercase"}}>
                                       <span className="font-weight-bold pb-2" style={{textTransform: "capitalize"}}> Helpline Email ID</span>
                                       <br/>
                                       <span className="font-weight-bold large text-danger pb-1">ncov2019@gov.in</span>
                                       <br/>
                                       <span className="font-weight-bold large text-danger">ncov2019@gmail.com</span>
-                                  </div>
+                                  </div> */}
                                     
                                 </div>
                             </div>
@@ -137,7 +147,7 @@ export default function Help() {
                 
                       </div>
                       </div>
-                      <div className="element-box">
+                      {/* <div className="element-box">
                             <div className="property-info-w">
                               <div className="property-info-side">
                                 <div className="side-section">
@@ -220,7 +230,7 @@ export default function Help() {
                               </div>
                             </div>
                           </div>
-                      </div>
+                      </div> */}
                     </div>
                   
                   

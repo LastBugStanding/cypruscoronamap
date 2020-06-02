@@ -26,12 +26,12 @@ export default class GlobalTabs extends Component {
                 <Tabs defaultIndex={1}>
                 <div className="element-wrapper pb-0"><div className="element-box-tp pt-0"><div className="os-tabs-w"></div><div className="os-tabs-controls">
                 <TabList className="nav nav-tabs smaller" style={{cursor:"pointer"}}>
-                <Link to="/" style={{textDecoration:"none"}}><Tab className="nav-item nav-link">Cyprus</Tab></Link>
+                <Link to="/" style={{textDecoration:"none"}}><Tab className="nav-item nav-link">KKTC | TRNC</Tab></Link>
                 {/* <Link to="/northcyprus" style={{textDecoration:"none"}}><Tab className="nav-item nav-link" >North Cyprus</Tab></Link>
                 <Link to="/southcyprus" style={{textDecoration:"none"}}><Tab className="nav-item nav-link" >South Cyprus</Tab></Link>
                 <Link to="/test" style={{textDecoration:"none"}}><Tab className="nav-item nav-link" >TEST</Tab></Link>  */}
-                <Link to="/analytics" style={{textDecoration:"none"}}><Tab className="nav-item nav-link active" >Analytics</Tab></Link>
-                {/* <Link to="/world" style={{textDecoration:"none"}}><Tab className="nav-item nav-link" >World</Tab></Link> */}
+                <Link to="/analytics" style={{textDecoration:"none"}}><Tab className="nav-item nav-link active" >İstatistikler| Analytics</Tab></Link>
+                <Link to="/updates" style={{textDecoration:"none"}}><Tab className="nav-item nav-link" >Güncellemeler | Updates</Tab></Link>
                 </TabList>
                 </div></div></div>
 
