@@ -10,7 +10,7 @@ import Layout from '../component/Layout'
 export default function About() {
     return (<Layout>
               <Helmet>
-                <title>About Covid-19</title>
+                <title>Covid-19 Hakkında | About Covid-19</title>
                 <meta name="description" content="Inforamtion regarding the coivd 19 provided by all sources."  />
                 <meta name="theme-color" content="#008f68"   />
 
@@ -23,16 +23,21 @@ export default function About() {
                     <div className="element-wrapper">
                       <div className="element-box">
                         <h5 className="form-header">
-                            About <small className="text-muted text-primary">cureCovid19.in</small>
+                            <small className="text-muted text-primary">by SnipeSec & SnipeNet</small>
 
                         </h5>
                         <div className="form-desc" style={{color: "#555"}}>
-                           <p className="lead"> We are facing a global crisis. The decisions our leaders will make over the coming weeks will shape our future. From a public health perspective, to combat an epidemic, officials must take a number of actions, such as: build awareness, set guidelines for health professionals, target infection clusters, limit population movements, and allocate scarce resources.
+                        <p className="lead"> Küresel bir kriz ile karşı karşıyayız. <br/>
 
-                           Our small contribution to people, at this hour, is to provide you with the most up-to-date information and data analysis about Covid-19. If information is missing please be patient - the data is likely updating and will be available shortly. </p>
+  Halkımız ve ülkemizde yaşayan kişiler için bu yeni pandemi COVID-19 ile ilgili canlı ve güvenilir bir bilgi kaynağı sağlama amacı ile bu platformu yarattık. Eğer yanlış olduğunu düşündüğünüz bir bilgi ve ya görüşlerinizi bildirmek için bize <a href="mailto:info@snipenet.com">info@snipenet.com</a> e-mail adresinden ulaşabilirsiniz.</p>
+
+                          <hr/>
+                           <p className="lead"> We are facing a global crisis. <br/>
+
+                           Our small contribution to our citizens and people who live in Cyprus as a whole, is to provide you with the up-to-date and reliable information about Covid-19 for TRNC and GCASC. If you think any information is missing or wrong, please be patient and let us know via <a href="mailto:info@snipenet.com">info@snipenet.com</a></p>
                         </div>
                         <h5 className="form-header">
-                          Sources
+                          Kaynaklar | Sources
                         </h5>
 
                         <div className="element-box-content">
@@ -48,9 +53,7 @@ export default function About() {
 
                                 </div>
 
-                                <p> Given the popularity and impact of the dashboard to date, we plan to continue hosting and managing the tool throughout the entirety of the COVID-19 outbreak and to build out its capabilities to establish a standing tool to monitor and report on future outbreaks. We believe our efforts are crucial to help inform modelling efforts and control measures during the earliest stages of the outbreak.
-
-                                We are grateful for the data support from the covid19india.org team and the CSSE Johns Hopkins University.   </p>
+                                <p>    </p>
 
                       </div>
 
@@ -58,7 +61,7 @@ export default function About() {
 
                 </div>
 
-                <div className="col-sm-6">
+                {/* <div className="col-sm-6">
 
                     <div className="element-wrapper">
 
@@ -124,7 +127,7 @@ export default function About() {
 
                     </div>
 
-                </div>
+                </div> */}
 
               </div>
               </div>
