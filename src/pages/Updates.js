@@ -106,7 +106,7 @@ export default class Updates extends Component {
                       <div className="col-12 col-xxl-12">
                         <div className="element-wrapper compact pt-4">
                           <div className="element-actions d-sm-block">
-                          <form className="form-inline justify-content-sm-end">
+                          {/* <form className="form-inline justify-content-sm-end">
                             <label className="smaller" htmlFor="">Kategoriler | Categories</label>
                             <select className="form-control form-control-sm form-control-faded" onChange={this.handleSubmit}>
                               <option value="ALL">
@@ -116,7 +116,7 @@ export default class Updates extends Component {
                                 {element} 
                               </option>)}
                             </select>
-                          </form>
+                          </form> */}
                           </div>
                           <h6 className="element-header">
                             {this.state.category===""?"ALL":this.state.category}
