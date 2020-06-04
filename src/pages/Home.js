@@ -245,12 +245,12 @@ highchartsMap(Highcharts);
                     </div>
 
                       </div> </div> </div></div><div className="element-wrapper pb-2">
-                            <div className="element-box col-sm-8 row-sm-6">
+                            {/* <div className="element-box col-sm-8 row-sm-6">
                               <SimpleGraph
                                 values={lineDataTotal}
                                 option={optionProperties}
                                 />
-                            </div>
+                            </div> */}
                         </div></div>
 
                       
@@ -266,7 +266,7 @@ highchartsMap(Highcharts);
                         
 
 
-                          <div className="col-sm-5">
+                          {/* <div className="col-sm-5">
                             <div className="element-wrapper pb-2">
                               <h6 className="element-header">
                                 Yaş Dağılımı / Gender Distribution
@@ -299,7 +299,7 @@ highchartsMap(Highcharts);
                               </div>
                             </div>
                           </div>
-                            </div>
+                            </div> */}
 
                         
                     <div className="col-sm-1">
@@ -307,10 +307,10 @@ highchartsMap(Highcharts);
 
 
                     </div>
-                    <div className="col-sm-7">
+                    <div className="">
 								<div className="element-wrapper">
 									<h6 className="element-header">
-										<svg height="50" width="12" className="blinking"><circle cx="5" cy="24" r="5" fill="red" /></svg> Updates 
+										<svg height="50" width="12" className="blinking"><circle cx="5" cy="24" r="5" fill="red" /></svg> Haberler & Güncellemeler | News & Updates 
 									</h6>
 									<div className="element-box-tp">
 										{articles.map(element=><HomeUpdateCard data={element} key={element.id}/>)}
@@ -319,7 +319,7 @@ highchartsMap(Highcharts);
 									<div className="row">
 										<div className="col-sm-4 col-2">
 										</div>
-										<button className="btn btn-md btn-primary" onClick={()=> window.location="/updates"}>View More</button>
+										<button className="btn btn-md btn-primary" onClick={()=> window.location="/updates"}>Daha Fazla | View More</button>
 										</div>
 									<br/>
 								</div>

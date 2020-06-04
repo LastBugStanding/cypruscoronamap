@@ -30,7 +30,7 @@ export default class GlobalTabs extends Component {
                 {/* <Link to="/northcyprus" style={{textDecoration:"none"}}><Tab className="nav-item nav-link" >North Cyprus</Tab></Link>
                 <Link to="/southcyprus" style={{textDecoration:"none"}}><Tab className="nav-item nav-link" >South Cyprus</Tab></Link>
                 <Link to="/test" style={{textDecoration:"none"}}><Tab className="nav-item nav-link" >TEST</Tab></Link>  */}
-                <Link to="/analytics" style={{textDecoration:"none"}}><Tab className="nav-item nav-link active" >İstatistikler| Analytics</Tab></Link>
+                {/* <Link to="/analytics" style={{textDecoration:"none"}}><Tab className="nav-item nav-link active" >İstatistikler| Analytics</Tab></Link> */}
                 <Link to="/updates" style={{textDecoration:"none"}}><Tab className="nav-item nav-link" >Güncellemeler | Updates</Tab></Link>
                 </TabList>
                 </div></div></div>

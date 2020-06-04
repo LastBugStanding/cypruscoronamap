@@ -53,7 +53,7 @@ export default function About() {
 
                                 </div>
 
-                                <p>    </p>
+                        
 
                       </div>
 
@@ -61,16 +61,20 @@ export default function About() {
 
                 </div>
 
-                {/* <div className="col-sm-6">
+                 <div className="col-sm-6">
 
                     <div className="element-wrapper">
 
 
                       <div className="element-box">
-                        <h5 className="form-header">
-                          FAQ's
+                        <h1 className="form-header">SnipeSec Şirket Politikası</h1>
+                        <h5 className="text-primary">
+                          	Snipesec Bilişim ve Siber Güvenlik, kurulduğu günden beri yegâne amacı profesyonel bakış açısı ve dünya standartlarında bilişim ve siber güvenlik çözümleri sunmaktır. Şirketimiz, kurumların ihtiyaçlarına uygun olarak, düşük bütçeden en büyük projelere kadar çözümler üretmektedir. Kurum kültürümüzün temeli, uyum içinde çalışan ekip ruhu ve her iş ve projenin özenle yapılıp kontrol edilmesidir. 
                         </h5>
-                        <div>
+                        </div>
+                        </div>
+                        </div>
+                      {/*  <div>
 
                             <p className="lead font-weight-bold">Q. Are you Official</p>
                             <p>A. No. <b style={{fontSize: "15px"}}>This is a Not-for-profit initiative by the alumni of </b> <b style={{backgroundColor: "#F5F5F5", fontSize: "16px", padding: "5px", borderRadius: "8px"}}>BITS Pilani</b> <b>and </b><b style={{backgroundColor: "#F5F5F5", fontSize: "16px", padding: "5px", borderRadius: "8px"}}>IIIT Hyderabad.</b></p>
