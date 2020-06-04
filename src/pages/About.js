@@ -27,9 +27,9 @@ export default function About() {
 
                         </h5>
                         <div className="form-desc" style={{color: "#555"}}>
-                        <p className="lead"> Küresel bir kriz ile karşı karşıyayız. <br/>
+                        <p className="lead">
 
-  Halkımız ve ülkemizde yaşayan kişiler için bu yeni pandemi COVID-19 ile ilgili canlı ve güvenilir bir bilgi kaynağı sağlama amacı ile bu platformu yarattık. Eğer yanlış olduğunu düşündüğünüz bir bilgi ve ya görüşlerinizi bildirmek için bize <a href="mailto:info@snipenet.com">info@snipenet.com</a> e-mail adresinden ulaşabilirsiniz.</p>
+                        Küresel bir kriz ile karşılaştığımız bugünlerde, halkımıza bu yeni pandemi süresince COVID-19 Virüsü ile ilgili resmi kaynaklardan elde ettiğimiz bilgileri ulaştırmak amacı ile bu platformu kurduk. Eğer yanlış olduğunu düşündüğünüz bir bilgi ve ya görüşlerinizi bildirmek için bize <a href="mailto:info@snipenet.com">info@snipenet.com</a> e-mail adresinden ulaşabilirsiniz.</p>
 
                           <hr/>
                            <p className="lead"> We are facing a global crisis. <br/>

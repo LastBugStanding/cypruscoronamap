@@ -164,7 +164,7 @@ highchartsMap(Highcharts);
                             <h6 className="pb-4">
                               <span className="font-weight-bold"> KIBRIS COVID-19 Haritası | Dashboard for COVID-19 Cyprus  <br/>
                             <span className="text-danger" style={{fontSize: "14px"}}>Salgın başlangıcından bugüne </span><span className="font-weight-bold text-danger" style={{fontSize: "20px"}}> {num_days} </span><span className="text-danger" style={{fontSize: "14px"}}>Gün Oldu</span>
-                            <span className="text-danger" style={{fontSize: "14px"}}>   ||||||</span>
+                            <span className="text-danger" style={{fontSize: "14px"}}>   ||   </span>
                             <span className="font-weight-bold text-danger" style={{fontSize: "20px"}}> {num_days} </span> <span className="text-danger" style={{fontSize: "14px"}}>days since first Outbreak</span> <br/>
                             </span>
                               <span className="small text-success"> Son Güncelleme: {data.summary.last_updated_time}</span>
