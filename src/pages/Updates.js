@@ -21,14 +21,20 @@ export default class Updates extends Component {
     }
   }
 
-  async componentDidMount(){
+   async componentDidMount(){
 
-    const requestOptions = {
+    const response = await fetch('https://raw.githubusercontent.com/LastBugStanding/covid/master/updates.json');
+    const data = await response.json();
+    this.setState({ updateData: data});
+    
+   }
+
+    /*const requestOptions = {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ category : this.state.category })
     };
-    const response = await fetch('https://curecovid19.in/readings/updates/get_updates', requestOptions); /* burada ki link değişirse çalışmaz çünkü bu da options olarak istek atıyor. büyük ihtimalle CORS kullanıyor */
+    const response = await fetch('https://curecovid19.in/readings/updates/get_updates', requestOptions); 
     const data = await response.json();
     this.setState({ updateData: data });
   }
@@ -48,7 +54,9 @@ export default class Updates extends Component {
     fetch('https://curecovid19.in/readings/updates/get_updates', requestOptions)
       .then(response => response.json())
       .then(data => this.setState({ updateData: data }));});
-  }
+  } */
+
+  
 
   render() {
 
@@ -90,7 +98,7 @@ export default class Updates extends Component {
                                 <span style={{textDecoration: "underline"}}>Bu haberler ve güncellemeler size ...Reklam haber sitesi sponsorluğu ile ulaştırılmaktadır.</span>
                             </a>
 
-                            {this.state.updateData.updates.map(element=><UpdateCard data={element} key={element.id}/>)}
+                            {/* {this.state.updateData.updates.map(element=><UpdateCard data={element} key={element.id}/>)} */}
                           </div>
 
                   <div className="content-w"><div className="content-i"><div className="content-box pt-0">
@@ -113,7 +121,7 @@ export default class Updates extends Component {
                           <h6 className="element-header">
                             {this.state.category===""?"ALL":this.state.category}
                           </h6>
-
+                          {this.state.updateData.updates.map(element=><UpdateCard data={element} key={element.id}/>)}
                           
                         </div>
                       </div>
