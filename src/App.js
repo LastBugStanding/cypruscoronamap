@@ -20,11 +20,11 @@ function App() {
       {/* <Suspense fallback={<Loader/>}> */}
     <Switch>
          <Route path="/" exact  component={Tab}/>
-         <Route path="/northcyprus" exact  component={NorthCyprus}/>
-         <Route path="/southcyprus" exact  component={SouthCyprus}/>
-         <Route path="/test" exact  component={Test}/>
-         <Route path="/analytics" exact component={Tabs}/>
-         <Route path="/world" exact  component={WorldTab}/>
+         {/* <Route path="/northcyprus" exact  component={NorthCyprus}/> */}
+         {/* <Route path="/southcyprus" exact  component={SouthCyprus}/> */}
+         {/* <Route path="/test" exact  component={Test}/> */}
+         {/* <Route path="/analytics" exact component={Tabs}/> */}
+         {/* <Route path="/world" exact  component={WorldTab}/> */}
          <Route path="/help" exact  component={Help}/>
          <Route path="/about" exact  component={About}/>
          <Route path="/updates" exact component={Updates}/>
